@@ -1,0 +1,29 @@
+
+#nomemotoesquerda {
+
+    font-size: 45px;
+    text-align:left;
+    color: white;
+    
+}
+
+#detalhesmotoesquerda {
+    font-size: 30px;
+    text-align: left;
+    color: white;
+}
+
+#nomemotodireita {
+
+    font-size: 45px;
+    text-align:right;
+    color: white;
+    
+}
+
+#detalhesmotodireita {
+    font-size: 30px;
+    text-align: right;
+    color: white;
+}
+
