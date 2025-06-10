@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(bg.jpg);
+    background-image: url(imagens/depositphotos_381213492-stock-illustration-wedding-invitation-greeting-card-watercolor.webp);
     background-size: cover;
     background-position: center;
 }
@@ -66,8 +66,8 @@ body{
 
 .input-box i{
     position: absolute;
-    left: 15px;
-    top: 50%;
+    left: 40px;
+    top: 19%;
     transform: translate(-50%);
     font-size: 20px;
     color: rgba(255, 255, 255, 0.8);
