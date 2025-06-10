@@ -57,12 +57,17 @@ body{
 }
 
 .input-box input:focus{
-    outline: 3px solid rgba(255, 255, 255, 0.3);
+    /*outline: 3px solid rgba(255, 255, 255, 0.3);*/
 }
 
 .input-box input::-ms-reveal{
     filter: invert(100%);
 }
+.input-box input{
+    background-color: transparent;
+    border: none;
+}
+
 
 .input-box i{
     position: absolute;
