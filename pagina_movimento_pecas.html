@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Chess - Movimento das peças</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Movimento das peças</h1>
+
+    <h2>Peão</h2>
+    <h3>O peão anda só pra frente, uma casa por vez — mas, na sua primeira jogada, pode avançar duas casas. Para capturar, ele só ataca nas casas diagonais na frente dele, uma casa para a esquerda ou direita.</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/movimento_peao.gif" alt="Perfil" width="200">
+    </center>
+    <h3>Uma característica importante sobre o peão é que quando ele chega na última casa do tabuleiro adversário ele pode ser promovido, sendo substituído por cavalo, bispo, torre ou rainha.</h3> 
+    <center>
+        <img src="gifs_pag_movimento_pecas/movimento_peao_promocao.gif" alt="Perfil" width="200">
+    </center>
+
+    <h2>Cavalo</h2>
+    <h3>O cavalo anda em “L”: duas casas numa direção e uma para o lado. Além disso, é o único que pode pular sobre outras peças! Captura quando cai na casa do inimigo.</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/movimento_cavalo.gif" alt="Perfil" width="200">
+    </center>
+
+    <h2>Bispo</h2>
+    <h3>O bispo se move quantas casas quiser pelas diagonais, e captura do mesmo jeito: parando na casa da peça inimiga. Existe o bispo que só anda pela casa branca e outro só pela casa preta.</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/movimento_bispo.gif" alt="Perfil" width="200">
+    </center>
+
+    <h2>Torre</h2>
+    <h3>A torre se move quantas casas quiser só na horizontal (filas) ou vertical (colunas). Para capturar, é só parar na casa do adversário.</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/movimento_torre.gif" alt="Perfil" width="200">
+    </center>
+
+    <h2>Dama</h2>
+    <h3>A dama pode andar quantas casas quiser em linha reta: para frente, trás, lados e diagonais — mas nunca em “L”. Ela captura a peça inimiga parando na casa dela.</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/movimento_rainha.gif" alt="Perfil" width="200">
+    </center>
+
+    <h2>Rei</h2>
+    <h3>A peça mais importante do jogo! O rei anda uma casa por vez em qualquer direção — para frente, trás, lado ou diagonal. Ele captura a peça adversária se ela estiver numa casa ao redor dele.</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/movimento_rei.gif" alt="Perfil" width="200">
+    </center>
+
+    <hr><h1>Conceitos</h1>
+
+    <h2>Xeque</h2>
+    <h3>Quando o rei está ameaçado por qualquer peça adversária, dizemos que ele está em "xeque". </h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/xeque.gif" alt="Perfil" width="200">
+    </center>
+
+    <h2>Xeque-mate</h2>
+    <h3>O xeque-mate é o ponto final de uma partida. Se o rei está em xeque e não existem casas para o rei ocupar que não estejam ameaçadas, então o rei está em "xeque-mate".</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/xeque_mate.gif" alt="Perfil" width="200">
+    </center>
+    
+    <h2>En Passant</h2>
+    <h3>Quando um peão em sua casa de origem anda duas casas e fica ao lado de um peão adversário, este pode capturá-lo como se houvesse simplesmente andado uma casa.</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/en_passant.gif" alt="Perfil" width="200">
+    </center>
+
+    <h2>Roque</h2>
+    <h3>O roque é realizado com uma das torres e o rei. Para a realização do roque é importante observar que só é possível executá-lo quando:</h3>
+    <ul>
+        <li>O rei e a torre do lado escolhido para o roque não foram movimentados.</li>
+        <li>Não houver peças entre o rei e a torre.</li>
+        <li>O rei não estiver em xeque.</li>
+        <li>As casas em que o rei passar não estiverem ameaçadas.</li>
+        <li>O rei, ao rocar, não terminar em xeque.</li>
+    </ul>
+    <h3>O roque é feito da seguinte maneira: </h3>
+    <ul>
+        <li>O rei anda duas casas em direção à torre.</li>
+        <li>A torre pula o rei e ocupa a casa ao lado do rei.</li>
+    </ul>
+    <center>
+        <img src="gifs_pag_movimento_pecas/roque.gif" alt="Perfil" width="200">
+    </center>
+
+    <h2>Rei afogado</h2>
+    <h3>Quando o rei não está em xeque e as casas que o cercam estão ameaçadas, a partida está empatada pois o rei está "afogado".</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/afogamento.gif" alt="Perfil" width="200">
+    </center>
+
+    <h2>Ataque Duplo</h2>
+    <h3>Este é um dos temas que acontecem com muita frequência nas partidas de xadrez. "Ataque duplo" é a denominação dada a um ataque a duas peças adversárias por uma peça de menor valor.</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/ataque_duplo.gif" alt="Perfil" width="200">
+        <p>A dama ataca o bispo e ameaça xeque-mate ao mesmo tempo.</p>
+    </center>
+
+    <h2>Garfo</h2>
+    <h3>Um garfo é uma tática no xadrez em que uma única peça ataca duas ou mais peças ao mesmo tempo.</h3>
+    <center>
+        <img src="gifs_pag_movimento_pecas/garfo.gif" alt="Perfil" width="200">
+    </center>
+
+    <hr>
+<h1>Valores comparativo das peças</h1>
+<h3>Atribuiu-se às peças um valor numérico:</h3>
+
+<center>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Peça</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dama</td>
+      <td>9 pontos</td>
+    </tr>
+    <tr>
+      <td>Torre</td>
+      <td>5 pontos</td>
+    </tr>
+    <tr>
+      <td>Bispo</td>
+      <td>3 pontos</td>
+    </tr>
+    <tr>
+      <td>Cavalo</td>
+      <td>3 pontos</td>
+    </tr>
+    <tr>
+      <td>Peão</td>
+      <td>1 ponto</td>
+    </tr>
+  </tbody>
+</table>
+</center>
+<center>
+<p>Estes valores não são absolutos e se utilizam como referencial para as trocas.</p>
+</center>   
+
+<hr><h1>Controle de tempo</h1>
+<h3>Os controles de tempo referem-se a quanto tempo cada jogador recebe para completar uma partida. Eles podem ser simples ou complexos. Os controles de tempo clássicos geralmente se referem a controles de tempo mais longos e geralmente são usados para torneios presenciais.</h3>
+
+
+
+</body>
+</html>
